@@ -266,9 +266,10 @@ app.get("/api/transactions/filterTitle/:title", async (req, res) => {
 });
 
 // -------- GROUP BY CATEGORY ------------
-app.get("/api/transactions/categories/:year/:month", async (req, res) => {
+app.get("/api/transactions/categories/:year/:month/:type", async (req, res) => {
   const year = Number(req.params.year);
   const month = Number(req.params.month);
+  const transactionType = Number(req.params.type);
   const initialDay = new Date(`${year}-${month}-01`);
   const finalDay = (month !== 12)
     ? new Date(`${year}-${month + 1}-01`)
@@ -279,7 +280,7 @@ app.get("/api/transactions/categories/:year/:month", async (req, res) => {
       select  c.title Category, c.id, sum(t.value)
       from transactions t 
       left outer join categories c on c.id = t.category_id 
-      where t.day between ${initialDay} and ${finalDay} and t.type = 0
+      where t.day between ${initialDay} and ${finalDay} and t.type = ${transactionType}
       group by c.id, c.title 
       order by c.id
     `;
