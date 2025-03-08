@@ -1,0 +1,5522 @@
+{
+  "categories": [
+    { "id": 1, "title": "casa" },
+    { "id": 2, "title": "investimento" },
+    { "id": 3, "title": "livre" },
+    { "id": 4, "title": "saude" },
+    { "id": 5, "title": "transporte" },
+    { "id": 6, "title": "casa_obra" },
+    { "id": 7, "title": "extra" },
+    { "id": 8, "title": "juros" },
+    { "id": 9, "title": "salario" },
+    { "id": 10, "title": "acerto" },
+    { "id": 99, "title": "patrimonio" }
+  ],
+  "transactions": [
+    {
+      "title": "pao",
+      "value": 4,
+      "day": "2024-03-07",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 33.44,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 31.55,
+      "day": "2024-03-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagem ufmg",
+      "value": 200,
+      "day": "2024-03-18",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cebolinha",
+      "value": 5,
+      "day": "2025-03-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "churros kennedy",
+      "value": 65.91,
+      "day": "2025-03-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber keller",
+      "value": 31.83,
+      "day": "2025-03-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salgados kennedy",
+      "value": 49.9,
+      "day": "2025-03-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sacolao pendente",
+      "value": 0.01,
+      "day": "2025-03-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2025-03-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Ajuda luiz",
+      "value": 50,
+      "day": "2024-03-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 6,
+      "day": "2024-03-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario 1k",
+      "value": 1000,
+      "day": "2024-03-15",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 2,
+      "day": "2024-03-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario 800",
+      "value": 800,
+      "day": "2024-03-22",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ana lysa cc ",
+      "value": 222.96,
+      "day": "2024-03-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 1/5",
+      "value": 24,
+      "day": "2024-03-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "margarina ",
+      "value": 16.98,
+      "day": "2024-03-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 34.28,
+      "day": "2024-03-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "almoço Ana beatriz",
+      "value": 22.95,
+      "day": "2024-03-23",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 2/5",
+      "value": 24,
+      "day": "2024-04-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 3/5",
+      "value": 24,
+      "day": "2024-05-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 4/5",
+      "value": 24,
+      "day": "2024-06-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 09/10",
+      "value": 148,
+      "day": "2024-01-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 6/10",
+      "value": 15,
+      "day": "2024-01-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 3/5",
+      "value": 24,
+      "day": "2024-01-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "G mouse 3/5",
+      "value": 20,
+      "day": "2024-01-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2024-01-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ebook",
+      "value": 1,
+      "day": "2024-01-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 4,
+      "day": "2024-01-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras",
+      "value": 424.29,
+      "day": "2024-01-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2.4,
+      "day": "2024-01-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburger",
+      "value": 21,
+      "day": "2024-01-05",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2024-01-08",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.11,
+      "day": "2024-01-08",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 55,
+      "day": "2024-01-14",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "anticoncepcional",
+      "value": 68.16,
+      "day": "2024-01-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 25.87,
+      "day": "2024-01-16",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bike-garfo",
+      "value": 120,
+      "day": "2024-01-18",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bike-direcao",
+      "value": 45,
+      "day": "2024-01-18",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bike-caneta",
+      "value": 15,
+      "day": "2024-01-18",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bike-desempeno",
+      "value": 15,
+      "day": "2024-01-18",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 12,
+      "day": "2024-01-21",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 30,
+      "day": "2024-01-21",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "refri",
+      "value": 13.6,
+      "day": "2024-01-21",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovo",
+      "value": 14.99,
+      "day": "2024-01-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lavanderia",
+      "value": 76.58,
+      "day": "2024-01-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "abobora, queijo,cebolinha",
+      "value": 14.15,
+      "day": "2024-01-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 11,
+      "day": "2024-01-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa bmw",
+      "value": 4.8,
+      "day": "2024-01-23",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 60,
+      "day": "2024-01-23",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "t energia",
+      "value": 20.7,
+      "day": "2024-01-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "chinelo",
+      "value": 25.9,
+      "day": "2024-01-24",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira semanal",
+      "value": 49.82,
+      "day": "2024-01-26",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "JUROS NU",
+      "value": 276.09,
+      "day": "2024-01-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "VENDA PC",
+      "value": 100,
+      "day": "2024-01-01",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gorjeta",
+      "value": 10,
+      "day": "2024-01-19",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 2500,
+      "day": "2024-01-11",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 250,
+      "day": "2024-01-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 5/5",
+      "value": 24,
+      "day": "2024-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2,
+      "day": "2024-03-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sabao e amaciante",
+      "value": 43.8,
+      "day": "2024-03-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ana beatriz almoço uber",
+      "value": 64.88,
+      "day": "2024-03-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 4,
+      "day": "2024-03-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Maionese ",
+      "value": 13.5,
+      "day": "2024-03-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros nu",
+      "value": 225.29,
+      "day": "2024-03-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario mes 02",
+      "value": 500,
+      "day": "2024-03-25",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario mes 01",
+      "value": 152.36,
+      "day": "2024-03-25",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 4,
+      "day": "2024-04-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet ",
+      "value": 99.9,
+      "day": "2024-04-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Canecas 9-10",
+      "value": 15,
+      "day": "2024-04-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 5/5 (novembro),",
+      "value": 24,
+      "day": "2024-04-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovo",
+      "value": 17.99,
+      "day": "2024-04-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "aws server 12,68 estorno",
+      "value": 0,
+      "day": "2024-04-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Dentista Raio-x ",
+      "value": 20,
+      "day": "2024-04-05",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Dentista manutenção ",
+      "value": 110,
+      "day": "2024-04-05",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes",
+      "value": 315.46,
+      "day": "2024-04-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Corte cabelo ",
+      "value": 19,
+      "day": "2024-04-05",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "chuveiro",
+      "value": 84.9,
+      "day": "2024-04-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "veda rosca",
+      "value": 3.8,
+      "day": "2024-04-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber kellers",
+      "value": 20.65,
+      "day": "2024-04-07",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "açaí",
+      "value": 37,
+      "day": "2024-04-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao ",
+      "value": 6,
+      "day": "2024-04-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1500,
+      "day": "2024-04-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 796,
+      "day": "2024-04-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Hamburger",
+      "value": 23,
+      "day": "2024-04-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 4,
+      "day": "2024-04-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Feira",
+      "value": 12.5,
+      "day": "2024-04-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovos",
+      "value": 16.99,
+      "day": "2024-04-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "margarina",
+      "value": 24,
+      "day": "2024-04-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 36.7,
+      "day": "2024-04-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Dentista manutenção resina",
+      "value": 90,
+      "day": "2024-04-22",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorvete",
+      "value": 17,
+      "day": "2024-04-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 4,
+      "day": "2024-04-24",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "eletrica",
+      "value": 179.33,
+      "day": "2024-04-24",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio anticoncepcional",
+      "value": 69.9,
+      "day": "2024-04-24",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "picoles",
+      "value": 13.75,
+      "day": "2024-04-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburger",
+      "value": 26.46,
+      "day": "2024-04-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "venda planilha",
+      "value": 200,
+      "day": "2024-04-28",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2024-05-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 10/10",
+      "value": 15,
+      "day": "2024-05-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha",
+      "value": 24,
+      "day": "2024-05-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "porção batata",
+      "value": 17,
+      "day": "2024-05-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra mes",
+      "value": 377.42,
+      "day": "2024-05-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "aws amazon 68.56 estorno ",
+      "value": 0,
+      "day": "2024-05-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 9,
+      "day": "2024-05-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "aws estorno 69.75",
+      "value": 0,
+      "day": "2024-05-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche em casa",
+      "value": 15,
+      "day": "2024-05-04",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Ssd",
+      "value": 235.12,
+      "day": "2024-05-04",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasas",
+      "value": 15.7,
+      "day": "2024-05-10",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 08/10",
+      "value": 148,
+      "day": "2023-12-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 5/10",
+      "value": 15,
+      "day": "2023-12-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 2/5",
+      "value": 24,
+      "day": "2023-12-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "G mouse 2/5",
+      "value": 20,
+      "day": "2023-12-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2023-12-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 10,
+      "day": "2023-12-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.5,
+      "day": "2023-12-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-12-10",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bike pecas",
+      "value": 50,
+      "day": "2023-12-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 370,
+      "day": "2023-12-11",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 100,
+      "day": "2023-12-11",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "desodorante e adesivo",
+      "value": 39.96,
+      "day": "2023-12-11",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "escova de dente",
+      "value": 15,
+      "day": "2023-12-11",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "protetor solar",
+      "value": 20,
+      "day": "2023-12-13",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "comida da virada",
+      "value": 97.18,
+      "day": "2023-12-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra do mes",
+      "value": 402.82,
+      "day": "2023-12-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bia BDAY",
+      "value": 47.9,
+      "day": "2023-12-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "natal comida",
+      "value": 95,
+      "day": "2023-12-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber natal AB",
+      "value": 44.86,
+      "day": "2023-12-25",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 10.85,
+      "day": "2023-12-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "picole",
+      "value": 4,
+      "day": "2023-12-30",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "comida da virada",
+      "value": 60.05,
+      "day": "2023-12-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "escumadeira",
+      "value": 30,
+      "day": "2023-12-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ralador",
+      "value": 26.9,
+      "day": "2023-12-30",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Patricia BDAY",
+      "value": 100,
+      "day": "2023-12-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 205.42,
+      "day": "2023-12-14",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Patricia natal",
+      "value": 100,
+      "day": "2023-12-24",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gorjeta",
+      "value": 25,
+      "day": "2023-12-20",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1800,
+      "day": "2023-12-20",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 950,
+      "day": "2023-12-21",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Hora extra",
+      "value": 450,
+      "day": "2023-12-24",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gorjeta",
+      "value": 20,
+      "day": "2023-12-21",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "VENDA PC",
+      "value": 100,
+      "day": "2023-12-02",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 07/10",
+      "value": 148,
+      "day": "2023-11-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 4/10",
+      "value": 15,
+      "day": "2023-11-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-11-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "margarina",
+      "value": 13.98,
+      "day": "2023-11-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "kellers bolo",
+      "value": 78.54,
+      "day": "2023-11-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Keller s",
+      "value": 16.99,
+      "day": "2023-11-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 49.9,
+      "day": "2023-11-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 1/5",
+      "value": 24,
+      "day": "2023-11-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "burifador",
+      "value": 16,
+      "day": "2023-11-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bucha banho",
+      "value": 12.99,
+      "day": "2023-11-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "burgers",
+      "value": 60,
+      "day": "2023-11-05",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-11-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.07,
+      "day": "2023-11-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "manutecao",
+      "value": 100,
+      "day": "2023-11-09",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "diarreia",
+      "value": 68,
+      "day": "2023-11-09",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "picole",
+      "value": 6,
+      "day": "2023-11-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-11-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburger",
+      "value": 54.5,
+      "day": "2023-11-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "a credito",
+      "value": 81.88,
+      "day": "2023-11-13",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorvete",
+      "value": 17,
+      "day": "2023-11-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa welington",
+      "value": 10,
+      "day": "2023-11-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "G mouse 1/5",
+      "value": 20,
+      "day": "2023-11-14",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem ufmg",
+      "value": 200,
+      "day": "2023-11-15",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa welington",
+      "value": 10,
+      "day": "2023-11-18",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra",
+      "value": 459.35,
+      "day": "2023-11-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "jeans",
+      "value": 80,
+      "day": "2023-11-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cinto",
+      "value": 30,
+      "day": "2023-11-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 5.97,
+      "day": "2023-11-22",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sabao amaciante",
+      "value": 50.7,
+      "day": "2023-11-24",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-11-26",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "JUROS NU",
+      "value": 113.81,
+      "day": "2023-11-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "AGIOTA",
+      "value": 150,
+      "day": "2023-11-01",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1000,
+      "day": "2023-11-14",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1750,
+      "day": "2023-11-16",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "seg des",
+      "value": 1691,
+      "day": "2023-11-23",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "acerto fim",
+      "value": 1855,
+      "day": "2023-11-30",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 06/10",
+      "value": 148,
+      "day": "2023-10-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 3/10",
+      "value": 15,
+      "day": "2023-10-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-10-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 104.51,
+      "day": "2023-10-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorvete Patricia s",
+      "value": 36.5,
+      "day": "2023-10-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber Patricia s",
+      "value": 29.94,
+      "day": "2023-10-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.07,
+      "day": "2023-10-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "a sorvete",
+      "value": 5,
+      "day": "2023-10-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "recarga",
+      "value": 25,
+      "day": "2023-10-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "w refri",
+      "value": 11,
+      "day": "2023-10-07",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "w salgado",
+      "value": 92,
+      "day": "2023-10-07",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburguer",
+      "value": 20,
+      "day": "2023-10-08",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-10-10",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "fones ouvido",
+      "value": 27.5,
+      "day": "2023-10-10",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 100,
+      "day": "2023-10-10",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras",
+      "value": 77,
+      "day": "2023-10-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem UFmg",
+      "value": 200,
+      "day": "2023-10-16",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber mudanca A.B",
+      "value": 64.42,
+      "day": "2023-10-18",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-10-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "doacao de sangue",
+      "value": 3,
+      "day": "2023-10-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras miojo",
+      "value": 6.4,
+      "day": "2023-10-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra",
+      "value": 359.34,
+      "day": "2023-10-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "suco laranja",
+      "value": 8.5,
+      "day": "2023-10-25",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovo",
+      "value": 13.99,
+      "day": "2023-10-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sacolao 18/09",
+      "value": 16.65,
+      "day": "2023-10-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "farmacia",
+      "value": 31.7,
+      "day": "2023-10-28",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-10-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "veneno rato",
+      "value": 12,
+      "day": "2023-10-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "JUROS NU",
+      "value": 194.46,
+      "day": "2023-10-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Tapete chuva",
+      "value": 50,
+      "day": "2023-10-01",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "agiota",
+      "value": 250,
+      "day": "2023-10-05",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1500,
+      "day": "2023-10-11",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1000,
+      "day": "2023-10-17",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "venda pc",
+      "value": 50,
+      "day": "2023-10-19",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "seg des",
+      "value": 1691,
+      "day": "2023-10-24",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 250,
+      "day": "2023-10-25",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovo",
+      "value": 13.99,
+      "day": "2023-10-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sacolao 18/09",
+      "value": 16.65,
+      "day": "2023-10-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "acerto",
+      "value": 1855,
+      "day": "2023-10-31",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "MONITOR GUI 10/10",
+      "value": 17,
+      "day": "2023-09-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 05/10",
+      "value": 148,
+      "day": "2023-09-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 2/10",
+      "value": 15,
+      "day": "2023-09-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sabao, Marg, amac.",
+      "value": 55.2,
+      "day": "2023-09-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Curso React",
+      "value": 28.9,
+      "day": "2023-09-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Anaversario",
+      "value": 67.82,
+      "day": "2023-09-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa moto",
+      "value": 10,
+      "day": "2023-09-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Anaversario",
+      "value": 140.7,
+      "day": "2023-09-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "INTERNET",
+      "value": 99.9,
+      "day": "2023-09-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-09-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passeio campo",
+      "value": 17.98,
+      "day": "2023-09-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 100,
+      "day": "2023-09-06",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio",
+      "value": 31.8,
+      "day": "2023-09-10",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza",
+      "value": 41.48,
+      "day": "2023-09-10",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cabelo",
+      "value": 17,
+      "day": "2023-09-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Keller s",
+      "value": 31.92,
+      "day": "2023-09-13",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-09-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio",
+      "value": 28.8,
+      "day": "2023-09-17",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6.56,
+      "day": "2023-09-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sacolao",
+      "value": 14.57,
+      "day": "2023-09-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "bh",
+      "value": 72.54,
+      "day": "2023-09-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "soro",
+      "value": 12.08,
+      "day": "2023-09-19",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pipoca brigadeiro",
+      "value": 13.6,
+      "day": "2023-09-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "xerox",
+      "value": 1.5,
+      "day": "2023-09-20",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sabao liq",
+      "value": 17.9,
+      "day": "2023-09-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-09-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras",
+      "value": 355,
+      "day": "2023-09-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem",
+      "value": 200,
+      "day": "2023-09-24",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "JUROS NU anaversario",
+      "value": 205.87,
+      "day": "2023-09-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario 08.23",
+      "value": 500,
+      "day": "2023-09-20",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pc",
+      "value": 70,
+      "day": "2023-09-20",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario 08.23",
+      "value": 1105,
+      "day": "2023-09-22",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "seg desemprego",
+      "value": 1691,
+      "day": "2023-09-25",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "acerto 2/4",
+      "value": 1855,
+      "day": "2023-09-30",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 15.45,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 15.45,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 15.45,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 17.35,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 17.35,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 15.45,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA",
+      "value": 17.35,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "COPASA DO MES",
+      "value": 15.07,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "MONITOR GUI 09/10",
+      "value": 17,
+      "day": "2023-08-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "PIZZA WENDEL (sobra",
+      "value": 59,
+      "day": "2023-08-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2023-08-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-08-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras",
+      "value": 15.36,
+      "day": "2023-08-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "adesivo",
+      "value": 16,
+      "day": "2023-08-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "super cola",
+      "value": 15.5,
+      "day": "2023-08-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "CELULAR 04/10",
+      "value": 148,
+      "day": "2023-08-12",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Joao 31/07",
+      "value": 14.98,
+      "day": "2023-08-12",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Joao 10/07",
+      "value": 13.96,
+      "day": "2023-08-12",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "livro ana 13/07",
+      "value": 34.89,
+      "day": "2023-08-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Patricia",
+      "value": 35,
+      "day": "2023-08-13",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem",
+      "value": 100.8,
+      "day": "2023-08-14",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-08-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 1/10",
+      "value": 15,
+      "day": "2023-08-16",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Marg. Maion",
+      "value": 23.47,
+      "day": "2023-08-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Manteiga cacau",
+      "value": 9,
+      "day": "2023-08-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes",
+      "value": 355.79,
+      "day": "2023-08-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagem ufgm",
+      "value": 150,
+      "day": "2023-08-22",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburguer",
+      "value": 51.46,
+      "day": "2023-08-25",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "SSD GUI 14/14",
+      "value": 50,
+      "day": "2023-08-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2,
+      "day": "2023-08-26",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2023-08-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu PC",
+      "value": 244.17,
+      "day": "2023-08-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "venda pc",
+      "value": 100,
+      "day": "2023-08-04",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cesta 06",
+      "value": 82,
+      "day": "2023-08-15",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Acerto 1/4",
+      "value": 1855,
+      "day": "2023-08-14",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "venda pc",
+      "value": 150,
+      "day": "2023-08-17",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 1145,
+      "day": "2023-08-18",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Seg Des",
+      "value": 1691,
+      "day": "2023-08-25",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "MONITOR GUI 08/10",
+      "value": 17,
+      "day": "2023-07-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 8,
+      "day": "2023-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2023-07-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "veneno",
+      "value": 15,
+      "day": "2023-07-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "recarga",
+      "value": 15,
+      "day": "2023-07-05",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio",
+      "value": 70.5,
+      "day": "2023-07-05",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 100,
+      "day": "2023-07-05",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gengibre",
+      "value": 1.7,
+      "day": "2023-07-08",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "portao pecas",
+      "value": 159,
+      "day": "2023-07-08",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "portao mao de obra",
+      "value": 100,
+      "day": "2023-07-08",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compras",
+      "value": 510.23,
+      "day": "2023-07-11",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "tinta portao",
+      "value": 60.7,
+      "day": "2023-07-11",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza",
+      "value": 44.9,
+      "day": "2023-07-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber",
+      "value": 30,
+      "day": "2023-07-12",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "celular 3/10",
+      "value": 148,
+      "day": "2023-07-12",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2023-07-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.07,
+      "day": "2023-07-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "caneca",
+      "value": 35,
+      "day": "2023-07-18",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.45,
+      "day": "2023-07-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.15,
+      "day": "2023-07-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 17.35,
+      "day": "2023-07-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 17.01,
+      "day": "2023-07-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 17.92,
+      "day": "2023-07-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 15,
+      "day": "2023-07-22",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "almoco ufmg",
+      "value": 11.5,
+      "day": "2023-07-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "setup novo",
+      "value": 2966.94,
+      "day": "2023-07-25",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "SSd gui 13.14",
+      "value": 50,
+      "day": "2023-07-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "tablet",
+      "value": 1899,
+      "day": "2023-07-26",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uberaba",
+      "value": 0.34,
+      "day": "2023-07-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 9.45,
+      "day": "2023-07-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber fernanda",
+      "value": 16.98,
+      "day": "2023-07-27",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "setup novo",
+      "value": 2398.41,
+      "day": "2023-07-29",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza wendel",
+      "value": 22.48,
+      "day": "2023-07-31",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Acerto",
+      "value": 1500,
+      "day": "2023-07-20",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Acerto",
+      "value": 2000,
+      "day": "2023-07-17",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Seg Des",
+      "value": 1690,
+      "day": "2023-07-25",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu PC",
+      "value": 121.74,
+      "day": "2023-07-01",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "açucar",
+      "value": 17.49,
+      "day": "2024-01-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche salgados",
+      "value": 22.22,
+      "day": "2024-01-27",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 31.11,
+      "day": "2024-01-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 1.99,
+      "day": "2024-01-21",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 1.99,
+      "day": "2024-01-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 3.98,
+      "day": "2024-01-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 1.99,
+      "day": "2024-01-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "celular 10/10",
+      "value": 148,
+      "day": "2024-02-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 07/10",
+      "value": 15,
+      "day": "2024-02-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovos",
+      "value": 31.98,
+      "day": "2024-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "verduras",
+      "value": 7.53,
+      "day": "2024-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra mes",
+      "value": 363.01,
+      "day": "2024-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6.3,
+      "day": "2024-02-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorteio tiguan",
+      "value": 4.25,
+      "day": "2024-02-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorteio golf",
+      "value": 3.88,
+      "day": "2024-02-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorteio 20k",
+      "value": 0.99,
+      "day": "2024-02-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorteio hilux",
+      "value": 4.97,
+      "day": "2024-02-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 52.05,
+      "day": "2024-02-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mercado K",
+      "value": 35.61,
+      "day": "2024-02-09",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche K",
+      "value": 36.47,
+      "day": "2024-02-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 3.6,
+      "day": "2024-02-11",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salgados G",
+      "value": 8.75,
+      "day": "2024-02-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2.4,
+      "day": "2024-02-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.7,
+      "day": "2024-02-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "almoço ramen",
+      "value": 21.6,
+      "day": "2024-02-14",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 5.49,
+      "day": "2024-02-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira semanal",
+      "value": 47.32,
+      "day": "2024-02-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa o sabotador",
+      "value": 1.16,
+      "day": "2024-02-16",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "camara de ar",
+      "value": 25,
+      "day": "2024-02-16",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber claudemir B-DAY",
+      "value": 19.95,
+      "day": "2024-02-14",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 100,
+      "day": "2023-08-07",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "venda pc",
+      "value": 900,
+      "day": "2024-01-31",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "luminaria",
+      "value": 69.9,
+      "day": "2024-01-15",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "manguito, garrafa",
+      "value": 124.59,
+      "day": "2023-12-15",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber",
+      "value": 15,
+      "day": "2024-01-15",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "c.c ana",
+      "value": 33,
+      "day": "2024-01-31",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2,
+      "day": "2024-01-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa opalao",
+      "value": 9.95,
+      "day": "2024-01-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber upa ida",
+      "value": 30,
+      "day": "2024-02-19",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber upa volta",
+      "value": 25,
+      "day": "2024-02-19",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rifa tv e ps5",
+      "value": 1.06,
+      "day": "2024-02-20",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "forno eletrico",
+      "value": 389,
+      "day": "2024-02-20",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "balcao forno",
+      "value": 270,
+      "day": "2024-02-20",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 2200,
+      "day": "2024-02-20",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2.4,
+      "day": "2024-02-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber",
+      "value": 14.94,
+      "day": "2024-02-15",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "interfone",
+      "value": 92,
+      "day": "2024-02-21",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2.4,
+      "day": "2024-02-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "leite",
+      "value": 6.9,
+      "day": "2024-02-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2024-02-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 2.4,
+      "day": "2024-02-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio",
+      "value": 71.57,
+      "day": "2024-02-25",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira semanal",
+      "value": 18,
+      "day": "2024-02-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovos",
+      "value": 17.99,
+      "day": "2024-02-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "marg, maio",
+      "value": 23.93,
+      "day": "2024-02-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Reserva Nu 29-02",
+      "value": 17143.31,
+      "day": "2023-01-02",
+      "category_id": 99,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.7,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros nu",
+      "value": 231.94,
+      "day": "2024-02-29",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "canecas 8-10",
+      "value": 15,
+      "day": "2024-03-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "gas cozinha 4/5",
+      "value": 24,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "G mouse 5-5",
+      "value": 20,
+      "day": "2024-03-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "recarga celular",
+      "value": 25,
+      "day": "2024-03-05",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra mes",
+      "value": 394,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 0.1,
+      "day": "2024-03-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "açucar",
+      "value": 17.98,
+      "day": "2024-05-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 36.36,
+      "day": "2024-05-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 4.8,
+      "day": "2024-05-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2024-05-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 4.8,
+      "day": "2024-05-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "chocolate maes",
+      "value": 19.92,
+      "day": "2024-05-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "embrulho maes",
+      "value": 8.27,
+      "day": "2024-05-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "planta maes",
+      "value": 90,
+      "day": "2024-05-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 41.99,
+      "day": "2024-05-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 9,
+      "day": "2024-05-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber keller",
+      "value": 12.56,
+      "day": "2024-05-12",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 2296.18,
+      "day": "2024-05-15",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "simone jessica",
+      "value": 120,
+      "day": "2024-05-08",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem ufmg",
+      "value": 200,
+      "day": "2024-05-18",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cemig",
+      "value": 52.5,
+      "day": "2024-05-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "armario forno",
+      "value": 289.89,
+      "day": "2024-05-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 3.6,
+      "day": "2024-05-19",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 4.8,
+      "day": "2024-05-21",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "freela guga CG",
+      "value": 0.01,
+      "day": "2024-05-20",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 2.4,
+      "day": "2024-05-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 4.8,
+      "day": "2024-05-26",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-05-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "SSD correios",
+      "value": 26,
+      "day": "2024-05-29",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra do mes ",
+      "value": 383.07,
+      "day": "2024-06-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros nu",
+      "value": 158.53,
+      "day": "2024-05-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2024-06-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.7,
+      "day": "2024-06-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "quiche",
+      "value": 9.6,
+      "day": "2024-06-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sou junior",
+      "value": 20,
+      "day": "2024-06-08",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-06-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "doce",
+      "value": 11.2,
+      "day": "2024-06-09",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira ",
+      "value": 14.4,
+      "day": "2024-06-10",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 2296.18,
+      "day": "2024-06-11",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "simone jessica",
+      "value": 120,
+      "day": "2024-06-10",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 50.48,
+      "day": "2024-06-15",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-06-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "adesivo",
+      "value": 19.8,
+      "day": "2024-06-16",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 32.17,
+      "day": "2024-06-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem ",
+      "value": 200,
+      "day": "2024-06-22",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Sorvete",
+      "value": 34,
+      "day": "2024-06-23",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Lavadeira, margarina, maio",
+      "value": 70.79,
+      "day": "2024-06-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "kimberly pizza",
+      "value": 65.49,
+      "day": "2024-06-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "kimberly uber",
+      "value": 40,
+      "day": "2024-06-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche janta",
+      "value": 50.48,
+      "day": "2024-06-26",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 174.58,
+      "day": "2024-06-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "intenet",
+      "value": 99.9,
+      "day": "2024-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra mes",
+      "value": 378.94,
+      "day": "2024-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "fio dental bocal",
+      "value": 4.9,
+      "day": "2024-06-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber patricia",
+      "value": 25,
+      "day": "2024-06-30",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Dione/Alice pao pago",
+      "value": 0,
+      "day": "2024-07-04",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Manutenção máquina ",
+      "value": 700,
+      "day": "2024-07-05",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros fernando",
+      "value": 500,
+      "day": "2024-07-09",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 2296.18,
+      "day": "2024-07-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Bianca mimos",
+      "value": 12,
+      "day": "2024-07-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Festa Jéssica ",
+      "value": 29,
+      "day": "2024-07-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Cebolinha ",
+      "value": 5,
+      "day": "2024-07-13",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Diária viagem jf",
+      "value": 70,
+      "day": "2024-07-16",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pis 1412",
+      "value": 1412,
+      "day": "2024-07-17",
+      "category_id": 10,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Jéssica aniversário ",
+      "value": 50,
+      "day": "2024-07-18",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Hambúrguer ",
+      "value": 22,
+      "day": "2024-07-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao e biscoito ",
+      "value": 19.35,
+      "day": "2024-07-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Remedios",
+      "value": 83.8,
+      "day": "2024-07-18",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Feira",
+      "value": 12,
+      "day": "2024-07-07",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Amazon Aws ",
+      "value": 1.96,
+      "day": "2024-07-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "margarina",
+      "value": 10.98,
+      "day": "2024-07-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "No-break ",
+      "value": 400,
+      "day": "2024-07-26",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza gui ken",
+      "value": 27.63,
+      "day": "2024-07-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet s ",
+      "value": 99.9,
+      "day": "2024-08-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 157.34,
+      "day": "2024-07-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem",
+      "value": 46.2,
+      "day": "2024-08-06",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista",
+      "value": 110,
+      "day": "2024-08-06",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber dentista",
+      "value": 14.92,
+      "day": "2024-08-06",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 9,
+      "day": "2024-08-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra mes",
+      "value": 380.51,
+      "day": "2024-08-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "manteiga cacau desodorante",
+      "value": 24.3,
+      "day": "2024-08-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "amazon aws ",
+      "value": 2.02,
+      "day": "2024-08-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros Jessica ",
+      "value": 100,
+      "day": "2024-08-07",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros fernando ",
+      "value": 30,
+      "day": "2024-08-07",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber patricia ",
+      "value": 32.97,
+      "day": "2024-08-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sorvete patricia",
+      "value": 17,
+      "day": "2024-08-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagens",
+      "value": 44.3,
+      "day": "2024-08-13",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario mês 07",
+      "value": 2296.18,
+      "day": "2024-08-14",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Cinema Deadpool ",
+      "value": 72,
+      "day": "2024-08-15",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Dentista recolocar peça ",
+      "value": 80,
+      "day": "2024-08-19",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Feira",
+      "value": 28.96,
+      "day": "2024-08-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.7,
+      "day": "2024-08-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "hamburger after cinema",
+      "value": 50.48,
+      "day": "2024-08-14",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Guilherme b-day",
+      "value": 66.96,
+      "day": "2024-08-23",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha 22/08 1/5",
+      "value": 23.6,
+      "day": "2024-08-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha 22/08 2/5",
+      "value": 23.6,
+      "day": "2024-09-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha 22/08 3/5",
+      "value": 23.6,
+      "day": "2024-10-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha 22/08 4/5",
+      "value": 23.6,
+      "day": "2024-11-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas cozinha 22/08 5/5",
+      "value": 23.6,
+      "day": "2024-12-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Recompensa, me fodo na rota",
+      "value": 110,
+      "day": "2024-08-23",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Next udemy curso",
+      "value": 24.9,
+      "day": "2024-08-27",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-08-30",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ana lysa bday",
+      "value": 500,
+      "day": "2024-09-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Kimberly ",
+      "value": 17,
+      "day": "2024-09-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Lona preta ana bday 17,50",
+      "value": 0,
+      "day": "2024-09-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 208.84,
+      "day": "2024-08-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet ",
+      "value": 99.9,
+      "day": "2024-09-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes",
+      "value": 435,
+      "day": "2024-09-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Mesa 1/10",
+      "value": 93,
+      "day": "2024-09-07",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Mesa 2/10",
+      "value": 93,
+      "day": "2024-10-07",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Mesa 3/10",
+      "value": 93,
+      "day": "2024-11-07",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "patrimonio corretora",
+      "value": 53111.03,
+      "day": "2024-01-02",
+      "category_id": 2,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 461.62,
+      "day": "2024-01-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 485.59,
+      "day": "2024-03-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 561.96,
+      "day": "2024-04-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 633.92,
+      "day": "2024-05-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 528.24,
+      "day": "2024-06-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 779.67,
+      "day": "2024-07-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 703.02,
+      "day": "2024-08-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "burguer",
+      "value": 22,
+      "day": "2024-09-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "deposito CDB",
+      "value": 10000,
+      "day": "2024-03-15",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "corretora CDB",
+      "value": 10000,
+      "day": "2024-03-15",
+      "category_id": 2,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "parafusos",
+      "value": 6.91,
+      "day": "2024-09-02",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 473.95,
+      "day": "2024-02-29",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 4/10",
+      "value": 93,
+      "day": "2024-12-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 5/10",
+      "value": 93,
+      "day": "2025-01-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 6/10",
+      "value": 93,
+      "day": "2025-02-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 7/10",
+      "value": 93,
+      "day": "2025-03-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 8/10",
+      "value": 93,
+      "day": "2025-04-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 9/10",
+      "value": 93,
+      "day": "2025-05-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mesa 10/10",
+      "value": 93,
+      "day": "2025-06-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "copasa",
+      "value": 15.7,
+      "day": "2024-09-07",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "deposito bitcoins 992",
+      "value": 0,
+      "day": "2024-09-07",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "taxa deposito bitcoins",
+      "value": 8,
+      "day": "2024-09-07",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "nubank bitcoins 992",
+      "value": 0,
+      "day": "2024-09-07",
+      "category_id": 2,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-09-10",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario agosto",
+      "value": 2296.18,
+      "day": "2024-09-11",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "corte cabelo",
+      "value": 19,
+      "day": "2024-09-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira semana",
+      "value": 59.99,
+      "day": "2024-09-13",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "churros pastel",
+      "value": 21.5,
+      "day": "2024-09-13",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Keller s ",
+      "value": 17.6,
+      "day": "2024-09-15",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Utensílios cozinha ",
+      "value": 25,
+      "day": "2024-09-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gulao danix ",
+      "value": 11.6,
+      "day": "2024-09-20",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Sorvete picole",
+      "value": 76,
+      "day": "2024-09-20",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Tfm bonus",
+      "value": 50,
+      "day": "2024-09-25",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-09-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Feira",
+      "value": 37.71,
+      "day": "2024-09-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pizza Bru, jes, ken",
+      "value": 85.9,
+      "day": "2024-09-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Picolé ",
+      "value": 5.5,
+      "day": "2024-09-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagem outubro",
+      "value": 200,
+      "day": "2024-10-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet ",
+      "value": 99.9,
+      "day": "2024-10-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Lavanderia",
+      "value": 80.4,
+      "day": "2024-10-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Palito/ dio dental",
+      "value": 12.99,
+      "day": "2024-10-03",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Interfone instalacao",
+      "value": 175,
+      "day": "2024-10-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Impressão folha",
+      "value": 5,
+      "day": "2024-10-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Copasa",
+      "value": 15.7,
+      "day": "2024-10-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu ",
+      "value": 191.06,
+      "day": "2024-09-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros corretora ",
+      "value": 596.42,
+      "day": "2024-09-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes",
+      "value": 382.01,
+      "day": "2024-10-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Celular plano",
+      "value": 39.21,
+      "day": "2024-10-14",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Bitcoin lucro líquido ",
+      "value": 211,
+      "day": "2024-10-14",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-10-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Ovos",
+      "value": 17,
+      "day": "2024-10-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 1/10",
+      "value": 72,
+      "day": "2024-10-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 2/10",
+      "value": 72,
+      "day": "2024-11-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/3",
+      "value": 72,
+      "day": "2024-12-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/4",
+      "value": 72,
+      "day": "2025-01-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/5",
+      "value": 72,
+      "day": "2025-02-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/6",
+      "value": 72,
+      "day": "2025-03-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/7",
+      "value": 72,
+      "day": "2025-04-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/8",
+      "value": 72,
+      "day": "2025-05-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/9",
+      "value": 72,
+      "day": "2025-06-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "next course 10/10",
+      "value": 72,
+      "day": "2025-07-17",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber Patrícia  s ",
+      "value": 26.9,
+      "day": "2024-10-13",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 1400,
+      "day": "2024-10-16",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 897,
+      "day": "2024-10-18",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Hambúrguer ana lysa",
+      "value": 30.49,
+      "day": "2024-10-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 47.98,
+      "day": "2024-11-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "passagem ufmg",
+      "value": 200,
+      "day": "2024-11-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "helena bday uber ",
+      "value": 63.73,
+      "day": "2024-10-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "tomada cozinha",
+      "value": 24.99,
+      "day": "2024-10-26",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "helena bday presentes",
+      "value": 78.46,
+      "day": "2024-10-26",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-10-27",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ovos",
+      "value": 20,
+      "day": "2024-10-25",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "internet",
+      "value": 99.9,
+      "day": "2024-11-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Copasa",
+      "value": 15.7,
+      "day": "2024-11-06",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Anticoncepcional",
+      "value": 40,
+      "day": "2024-11-11",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario outubro ",
+      "value": 2296.18,
+      "day": "2024-11-13",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Burguers",
+      "value": 50.54,
+      "day": "2024-11-15",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes",
+      "value": 411.16,
+      "day": "2024-11-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Bombom jessica",
+      "value": 12.98,
+      "day": "2024-11-20",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uberaba, papel, legumes",
+      "value": 19.5,
+      "day": "2024-11-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 6,
+      "day": "2024-11-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Criptos 1040",
+      "value": 0,
+      "day": "2024-11-24",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Recarga celular ",
+      "value": 40,
+      "day": "2024-11-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Curso marketing ",
+      "value": 97.9,
+      "day": "2024-11-29",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Cripto BTC 2089,71",
+      "value": 1823,
+      "day": "2024-11-29",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-11-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cripto XLM 207,31",
+      "value": 0,
+      "day": "2024-11-27",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 61.48,
+      "day": "2024-11-23",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2024-11-20",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 3,
+      "day": "2024-11-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "refrigerante",
+      "value": 6,
+      "day": "2024-11-14",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 6,
+      "day": "2024-11-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 19.98,
+      "day": "2024-11-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Criptos XLM ",
+      "value": 599.29,
+      "day": "2024-12-02",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet ",
+      "value": 99.9,
+      "day": "2024-12-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Corretora ",
+      "value": 531.3,
+      "day": "2024-11-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros corretora ",
+      "value": 622,
+      "day": "2024-10-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 104.38,
+      "day": "2024-11-30",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 61.48,
+      "day": "2024-12-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros fernando",
+      "value": 50,
+      "day": "2024-12-06",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cozinha stuff",
+      "value": 458.71,
+      "day": "2024-12-09",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber santa luzia x casa",
+      "value": 17.43,
+      "day": "2024-12-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 12,
+      "day": "2024-12-09",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "tcc salgados + uber ",
+      "value": 57.78,
+      "day": "2024-12-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 1500,
+      "day": "2024-12-13",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "13 salario",
+      "value": 1590,
+      "day": "2024-12-13",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra mes",
+      "value": 351.7,
+      "day": "2024-12-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagem",
+      "value": 200,
+      "day": "2024-12-16",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "celular recarga",
+      "value": 40.91,
+      "day": "2024-12-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 1500,
+      "day": "2024-12-17",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "ferias",
+      "value": 1537.85,
+      "day": "2024-12-18",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "picole",
+      "value": 11,
+      "day": "2024-12-19",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lavanderia",
+      "value": 45.8,
+      "day": "2024-12-12",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "dentista e raiox ",
+      "value": 190,
+      "day": "2024-12-09",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "sobremesas natal 13°",
+      "value": 97.27,
+      "day": "2024-12-22",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "festa patrocinio refri, lanche",
+      "value": 29,
+      "day": "2024-12-22",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Queijos 13°",
+      "value": 60,
+      "day": "2024-12-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Natal dia 24 13°",
+      "value": 60,
+      "day": "2024-12-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Peneira 13°",
+      "value": 8,
+      "day": "2024-12-24",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Picoles natal 25 13°",
+      "value": 56,
+      "day": "2024-12-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Patricia aniversário 13°",
+      "value": 100,
+      "day": "2024-12-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mochila bianca 13°",
+      "value": 90,
+      "day": "2024-12-27",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2024-12-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Refri Patrícia 13° ",
+      "value": 45,
+      "day": "2024-12-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Virada 13°",
+      "value": 127,
+      "day": "2024-12-28",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros corretora",
+      "value": 476.66,
+      "day": "2024-12-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Juros nu",
+      "value": 18.9,
+      "day": "2024-12-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Internet",
+      "value": 99.9,
+      "day": "2025-01-01",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber planalto ",
+      "value": 22.94,
+      "day": "2025-01-03",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Uber planalto ",
+      "value": 22.94,
+      "day": "2025-01-03",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Feira",
+      "value": 62.9,
+      "day": "2025-01-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 6,
+      "day": "2025-01-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Passagem ",
+      "value": 200,
+      "day": "2025-01-05",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "borracharia kennedy",
+      "value": 21,
+      "day": "2025-01-11",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Material contrapiso",
+      "value": 635,
+      "day": "2025-01-08",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "mao de obra contrapiso",
+      "value": 700,
+      "day": "2025-01-12",
+      "category_id": 6,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "vivo recarga",
+      "value": 40,
+      "day": "2025-01-16",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario proporcional ",
+      "value": 1000,
+      "day": "2025-01-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Salario",
+      "value": 286.17,
+      "day": "2025-01-14",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Morango",
+      "value": 5,
+      "day": "2025-01-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2025-01-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Doce goiaba",
+      "value": 5.25,
+      "day": "2025-01-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Compra do mes ",
+      "value": 450.58,
+      "day": "2025-01-17",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza bruna, jessica, kennedy",
+      "value": 160,
+      "day": "2025-01-25",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lanche",
+      "value": 70.5,
+      "day": "2025-01-17",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Diária concreto",
+      "value": 120,
+      "day": "2025-01-26",
+      "category_id": 7,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas 28/01 1",
+      "value": 24,
+      "day": "2025-01-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas 28/01 2",
+      "value": 24,
+      "day": "2025-02-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas 28/01 3",
+      "value": 24,
+      "day": "2025-03-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas 28/01 4",
+      "value": 24,
+      "day": "2025-04-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Gas 28/01 5",
+      "value": 24,
+      "day": "2025-05-28",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 9,
+      "day": "2025-01-29",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Celular note 13 ana lysa ",
+      "value": 1277,
+      "day": "2025-01-29",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pizza limpeza arvore",
+      "value": 30.06,
+      "day": "2025-02-01",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "adaptador wifi",
+      "value": 116.9,
+      "day": "2025-02-01",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "extesao energia",
+      "value": 37,
+      "day": "2025-02-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "cabo de rede",
+      "value": 29.2,
+      "day": "2025-02-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "suporte celular",
+      "value": 8.9,
+      "day": "2025-02-02",
+      "category_id": 2,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "churros",
+      "value": 27,
+      "day": "2025-02-02",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber shopping",
+      "value": 20,
+      "day": "2025-02-02",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "intenet",
+      "value": 99.9,
+      "day": "2025-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber UFMG",
+      "value": 30,
+      "day": "2024-12-12",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros nu",
+      "value": 176.17,
+      "day": "2025-01-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "juros corretora",
+      "value": 529.18,
+      "day": "2025-01-31",
+      "category_id": 8,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 10.89,
+      "day": "2025-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira uberaba",
+      "value": 58.47,
+      "day": "2025-02-02",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "encanação",
+      "value": 25.7,
+      "day": "2025-02-04",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "picoles bianca",
+      "value": 22,
+      "day": "2025-02-03",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 3.16,
+      "day": "2025-02-05",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Corte cabelo ",
+      "value": 22,
+      "day": "2025-02-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "kimberly bday",
+      "value": 50,
+      "day": "2025-02-06",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber patricia",
+      "value": 30.71,
+      "day": "2025-02-15",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "remedio ibuprofeno",
+      "value": 13.9,
+      "day": "2025-02-15",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "compra do mes",
+      "value": 383.79,
+      "day": "2025-02-15",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "anticoncepcional",
+      "value": 83.95,
+      "day": "2025-02-14",
+      "category_id": 4,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "coca cola tfm",
+      "value": 12.5,
+      "day": "2025-02-12",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "pao",
+      "value": 9,
+      "day": "2025-02-07",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "salario",
+      "value": 2143.27,
+      "day": "2025-02-12",
+      "category_id": 9,
+      "type": 1,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber formatura",
+      "value": 26.73,
+      "day": "2025-02-08",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Recarga celular",
+      "value": 40,
+      "day": "2025-02-18",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "rolo de massa",
+      "value": 17.99,
+      "day": "2025-02-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "lavanderia e coisa de pizza",
+      "value": 59,
+      "day": "2025-02-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "feira",
+      "value": 35,
+      "day": "2025-02-22",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "uber feira",
+      "value": 9.96,
+      "day": "2025-02-22",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Crunchyroll ",
+      "value": 100,
+      "day": "2025-02-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Ubers cinema e feira",
+      "value": 26.87,
+      "day": "2025-02-23",
+      "category_id": 5,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "presunto, tomate, cocacola",
+      "value": 30.3,
+      "day": "2025-02-23",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "Pao",
+      "value": 12,
+      "day": "2025-02-24",
+      "category_id": 1,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    },
+    {
+      "title": "joao gabriel pc presente",
+      "value": 1383.95,
+      "day": "2025-02-24",
+      "category_id": 3,
+      "type": 0,
+      "user_id": "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3"
+    }
+  ]
+  
+}
