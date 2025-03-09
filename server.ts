@@ -81,7 +81,7 @@ app.post(
   "/api/transactions",
   //  requireAuth(),
   async (req, res) => {
-    const { title, value, category_id, day, type } = req.body;
+    const { title, value, category_id, day, type, user_id } = req.body;
 
     // const { userId } = getAuth(req);
     // if (!userId) {
@@ -97,7 +97,7 @@ app.post(
           category_id,
           type,
           day: new Date(day),
-          user_id: "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3",
+          user_id
         },
       });
       res.status(201).json(newTransaction);
@@ -380,7 +380,7 @@ type TransactionType = {
   day: Date | null;
   category_id: number | null;
   type: number | null;
-  user_id: string | "user_2tSZpi4m0D0TuI2mq6Zb6CwtYb3";
+  user_id: string;
 };
 
 function sumValues(

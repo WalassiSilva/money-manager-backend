@@ -30,8 +30,8 @@ async function main() {
         value: transaction.value,
         day: transaction.day ? new Date(transaction.day) : new Date(),
         type: transaction.type,
-        user_id: transaction.userId,
-        category_id: categoryMap.get(transaction.category) || null, // Associa à categoria
+        user_id: transaction.user_id,
+        category_id: categoryMap.get(transaction.category_id), // Associa à categoria
       },
     });
   }
