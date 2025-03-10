@@ -1,7 +1,6 @@
 import express from "express";
 import { PrismaClient } from "@prisma/client";
 import cors from "cors";
-import { clerkMiddleware, requireAuth, getAuth } from "@clerk/express";
 
 const app = express();
 const port = 3333;
@@ -9,43 +8,32 @@ const prisma = new PrismaClient();
 
 app.use(express.json());
 app.use(cors());
-// app.use(clerkMiddleware());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello! Welcome to the server");
 });
 
 // --------------- GET TRANSACTIONS ----------------
-app.get(
-  "/api/transactions",
-  //  requireAuth(),
-  async (req, res) => {
-    // const { auth } = req;
-
-    // const { userId } = getAuth(req);
-    // if (!userId) {
-    //   return res.status(401).send({ message: "Nao autorizado" });
-    // }
-
-    try {
-      const data = await prisma.transaction.findMany({
-        // where: { user_id: userId },
-        orderBy: [{ day: "desc" }, { id: "desc" }],
-        include: {
-          categories: {
-            select: {
-              title: true,
-            },
+app.get("/api/transactions", async (req, res) => {
+  const user_id = req.query.user_id?.toString();
+  try {
+    const data = await prisma.transaction.findMany({
+      where: { user_id },
+      orderBy: [{ day: "desc" }, { id: "desc" }],
+      include: {
+        categories: {
+          select: {
+            title: true,
           },
         },
-      });
-      res.json(data);
-    } catch (error) {
-      console.log("Error: ", error);
-      return res.status(500).send({ message: "Erro ao buscar as transações" });
-    }
+      },
+    });
+    res.json(data);
+  } catch (error) {
+    console.log("Error: ", error);
+    return res.status(500).send({ message: "Erro ao buscar as transações" });
   }
-);
+});
 
 // --------------- GET CATEGORIES ----------------
 app.get("/api/transactions/categories", async (req, res) => {
@@ -63,9 +51,12 @@ app.get("/api/transactions/categories", async (req, res) => {
 // --------------- GET TRANSACTION BY ID -----------
 app.get("/api/transactions/:id", async (req, res) => {
   const id = req.params.id;
+  const user_id = req.query.user_id?.toString();
 
   try {
-    const transaction = await prisma.transaction.findUnique({ where: { id } });
+    const transaction = await prisma.transaction.findUnique({
+      where: { id, user_id },
+    });
 
     if (!transaction)
       return res.status(404).send({ message: "Transação não encontrada" });
@@ -77,46 +68,39 @@ app.get("/api/transactions/:id", async (req, res) => {
 });
 
 // --------------- CREATE TRANSACTION ------------
-app.post(
-  "/api/transactions",
-  //  requireAuth(),
-  async (req, res) => {
-    const { title, value, category_id, day, type, user_id } = req.body;
+app.post("/api/transactions", async (req, res) => {
+  const { title, value, category_id, day, type, user_id } = req.body;
 
-    // const { userId } = getAuth(req);
-    // if (!userId) {
-    //   return res.status(401).send({ message: "Não autorizado" });
-    // }
-    // console.log(userId);
-
-    try {
-      const newTransaction = await prisma.transaction.create({
-        data: {
-          title,
-          value,
-          category_id,
-          type,
-          day: new Date(day),
-          user_id
-        },
-      });
-      res.status(201).json(newTransaction);
-    } catch (error) {
-      return res
-        .status(500)
-        .send({ message: "Erro ao cadastrar uma transação", error: error });
-    }
+  try {
+    const newTransaction = await prisma.transaction.create({
+      data: {
+        title,
+        value,
+        category_id,
+        type,
+        day: new Date(day),
+        user_id,
+      },
+    });
+    res.status(201).json(newTransaction);
+  } catch (error) {
+    return res
+      .status(500)
+      .send({ message: "Erro ao cadastrar uma transação", error: error });
   }
-);
+});
 
 // --------------- UPDATE TRANSACTION ------------
 app.put("/api/transactions/:id", async (req, res) => {
   const id = req.params.id;
+  const user_id = req.query.user_id?.toString();
   if (!id) {
     return res.status(404).send({ message: "Transação não encontrada" });
   }
   try {
-    const transaction = await prisma.transaction.findUnique({ where: { id } });
+    const transaction = await prisma.transaction.findUnique({
+      where: { id, user_id },
+    });
 
     if (!transaction)
       return res.status(404).send({
@@ -144,10 +128,11 @@ app.put("/api/transactions/:id", async (req, res) => {
 // --------------- DELETE TRANSACTION ------------
 app.delete("/api/transactions/:id", async (req, res) => {
   const id = req.params.id;
+  const user_id = req.query.user_id?.toString();
 
   try {
     const targetTransaction = await prisma.transaction.findUnique({
-      where: { id },
+      where: { id, user_id },
     });
     if (!targetTransaction) {
       return res
@@ -166,11 +151,13 @@ app.delete("/api/transactions/:id", async (req, res) => {
 // -------- FILTER ALL TRANSACTIONS BY CATEGORY --------
 app.get("/api/transactions/filterAll/:categoryTitle", async (req, res) => {
   const categoryTitle = req.params.categoryTitle;
+  const user_id = req.query.user_id?.toString();
 
   try {
     const data = await prisma.transaction.findMany({
       include: { categories: { select: { title: true } } },
       where: {
+        user_id,
         categories: {
           title: {
             equals: categoryTitle,
@@ -197,6 +184,7 @@ app.get("/api/transactions/filterAll/:categoryTitle", async (req, res) => {
 app.get(
   "/api/transactions/filter/month/:category/:year/:month",
   async (req, res) => {
+    const user_id = req.query.user_id?.toString();
     const category = req.params.category;
     const month = Number(req.params.month);
     const year = Number(req.params.year);
@@ -210,6 +198,7 @@ app.get(
       const data = await prisma.transaction.findMany({
         where: {
           AND: [
+            { user_id },
             {
               day: {
                 lt: new Date(finalDay),
@@ -246,6 +235,7 @@ app.get(
 app.get("/api/transactions/filter/:year/:month", async (req, res) => {
   const month = Number(req.params.month);
   const year = Number(req.params.year);
+  const user_id = req.query.user_id?.toString();
   const initialDay = new Date(`${year}-${month}-01`);
   const finalDay =
     month !== 12
@@ -255,6 +245,7 @@ app.get("/api/transactions/filter/:year/:month", async (req, res) => {
   try {
     const data = await prisma.transaction.findMany({
       where: {
+        user_id,
         day: {
           lt: new Date(finalDay),
           gte: new Date(initialDay),
@@ -275,10 +266,14 @@ app.get("/api/transactions/filter/:year/:month", async (req, res) => {
 // -------- FILTER TRANSACTIONS BY NAME ------------
 app.get("/api/transactions/filterTitle/:title", async (req, res) => {
   const title = req.params.title;
+  const user_id = req.query.user_id?.toString();
 
   try {
     const data = await prisma.transaction.findMany({
-      where: { title: { contains: title, mode: "insensitive" } },
+      where: {
+        user_id,
+        title: { contains: title, mode: "insensitive" },
+      },
       orderBy: { day: "desc" },
     });
 
@@ -296,6 +291,7 @@ app.get("/api/transactions/filterTitle/:title", async (req, res) => {
 
 // -------- GROUP BY CATEGORY ------------
 app.get("/api/transactions/categories/:year/:month/:type", async (req, res) => {
+  const user_id = req.query.user_id?.toString();
   const year = Number(req.params.year);
   const month = Number(req.params.month);
   const transactionType = Number(req.params.type);
@@ -310,7 +306,7 @@ app.get("/api/transactions/categories/:year/:month/:type", async (req, res) => {
       select  c.title Category, c.id, sum(t.value)
       from transactions t 
       left outer join categories c on c.id = t.category_id 
-      where t.day between ${initialDay} and ${finalDay} and t.type = ${transactionType}
+      where t.day between ${initialDay} and ${finalDay} and t.type = ${transactionType} and t.user_id = ${user_id}
       group by c.id, c.title 
       order by c.id
     `;
@@ -323,6 +319,7 @@ app.get("/api/transactions/categories/:year/:month/:type", async (req, res) => {
 
 // -------- GET PATRIMONY ------------
 app.get("/api/transactions/patrimony/:year/:month", async (req, res) => {
+  const user_id = req.query.user_id?.toString();
   const year = Number(req.params.year);
   const month = Number(req.params.month);
   const finalDay =
@@ -333,6 +330,7 @@ app.get("/api/transactions/patrimony/:year/:month", async (req, res) => {
   try {
     const data = await prisma.transaction.findMany({
       where: {
+        user_id,
         day: {
           lt: new Date(finalDay),
         },
@@ -383,9 +381,7 @@ type TransactionType = {
   user_id: string;
 };
 
-function sumValues(
-  filterResult: TransactionType[]
-) {
+function sumValues(filterResult: TransactionType[]) {
   let totalValue = 0;
   for (const item of filterResult) {
     totalValue += item.value!;
@@ -393,9 +389,7 @@ function sumValues(
   return totalValue;
 }
 
-function setExpensesAsNegative(
-  filterResult: TransactionType[]
-) {
+function setExpensesAsNegative(filterResult: TransactionType[]) {
   for (const item of filterResult) {
     if (item.type === 0) {
       item.value! *= -1;

@@ -31,7 +31,7 @@ async function main() {
         day: transaction.day ? new Date(transaction.day) : new Date(),
         type: transaction.type,
         user_id: transaction.user_id,
-        category_id: categoryMap.get(transaction.category_id), // Associa à categoria
+        category_id: categoryMap.get(transaction.category_id),
       },
     });
   }
