@@ -70,20 +70,48 @@ app.get("/api/transactions/:id", async (req, res) => {
 
 // --------------- CREATE TRANSACTION ------------
 app.post("/api/transactions", async (req, res) => {
-  const { title, value, category_id, day, type, user_id } = req.body;
+  const { title, value, category_id, day, type, user_id, installments } =
+    req.body;
 
   try {
-    const newTransaction = await prisma.transaction.create({
-      data: {
+    const baseDay = new Date(day);
+    if (Number.isNaN(baseDay.getTime())) {
+      return res.status(400).send({ message: "Data inválida" });
+    }
+
+    const installmentsCount = Number.isFinite(Number(installments))
+      ? Math.max(1, Math.floor(Number(installments)))
+      : 1;
+
+    const transactionsToCreate = Array.from(
+      { length: installmentsCount },
+      (_, index) => ({
         title,
         value,
         category_id,
         type,
-        day: new Date(day),
+        day: addMonthsKeepingDay(baseDay, index),
         user_id,
-      },
+      }),
+    );
+
+    const createdTransactions = await prisma.$transaction(
+      transactionsToCreate.map((transactionData) =>
+        prisma.transaction.create({
+          data: transactionData,
+        }),
+      ),
+    );
+
+    if (createdTransactions.length === 1) {
+      return res.status(201).json(createdTransactions[0]);
+    }
+
+    return res.status(201).json({
+      message: "Transações cadastradas com sucesso",
+      createdCount: createdTransactions.length,
+      data: createdTransactions,
     });
-    res.status(201).json(newTransaction);
   } catch (error) {
     return res
       .status(500)
@@ -396,4 +424,20 @@ function setExpensesAsNegative(filterResult: TransactionType[]) {
       item.value! *= -1;
     }
   }
+}
+
+function addMonthsKeepingDay(baseDate: Date, monthsToAdd: number) {
+  const year = baseDate.getFullYear();
+  const month = baseDate.getMonth();
+  const day = baseDate.getDate();
+
+  const targetDate = new Date(year, month + monthsToAdd, 1);
+  const lastDayOfTargetMonth = new Date(
+    targetDate.getFullYear(),
+    targetDate.getMonth() + 1,
+    0,
+  ).getDate();
+
+  targetDate.setDate(Math.min(day, lastDayOfTargetMonth));
+  return targetDate;
 }
