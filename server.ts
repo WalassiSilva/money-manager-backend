@@ -1,4 +1,5 @@
 import express from "express";
+import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import cors from "cors";
 
@@ -28,6 +29,7 @@ app.get("/api/transactions", async (req, res) => {
         },
       },
     });
+
     res.json(data);
   } catch (error) {
     console.log("Error: ", error);
@@ -60,7 +62,6 @@ app.get("/api/transactions/:id", async (req, res) => {
 
     if (!transaction)
       return res.status(404).send({ message: "Transação não encontrada" });
-
     return res.status(200).json({ transaction });
   } catch (error) {
     res.status(500).send({ message: "Erro ao buscar a transação" });
@@ -228,7 +229,7 @@ app.get(
         .status(500)
         .send({ message: "Erro ao Filtrar por categoria e mês" });
     }
-  }
+  },
 );
 
 // -------- FILTER TRANSACTIONS BY MONTH -----------
@@ -360,7 +361,7 @@ function getBalance(
     day: Date | null;
     category_id: number | null;
     type: number | null;
-  }[]
+  }[],
 ) {
   const balance = { incomes: 0, expenses: 0, result: 0 };
   for (const item of filterResult) {
