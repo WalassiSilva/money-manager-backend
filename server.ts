@@ -427,17 +427,15 @@ function setExpensesAsNegative(filterResult: TransactionType[]) {
 }
 
 function addMonthsKeepingDay(baseDate: Date, monthsToAdd: number) {
-  const year = baseDate.getFullYear();
-  const month = baseDate.getMonth();
-  const day = baseDate.getDate();
+  const year = baseDate.getUTCFullYear();
+  const month = baseDate.getUTCMonth();
+  const day = baseDate.getUTCDate();
 
-  const targetDate = new Date(year, month + monthsToAdd, 1);
+  const targetDate = new Date(Date.UTC(year, month + monthsToAdd, 1));
   const lastDayOfTargetMonth = new Date(
-    targetDate.getFullYear(),
-    targetDate.getMonth() + 1,
-    0,
-  ).getDate();
+    Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth() + 1, 0),
+  ).getUTCDate();
 
-  targetDate.setDate(Math.min(day, lastDayOfTargetMonth));
+  targetDate.setUTCDate(Math.min(day, lastDayOfTargetMonth));
   return targetDate;
 }
