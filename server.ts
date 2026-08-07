@@ -217,11 +217,7 @@ app.get(
     const category = req.params.category;
     const month = Number(req.params.month);
     const year = Number(req.params.year);
-    const initialDay = new Date(`${year}-${month}-01`);
-    const finalDay =
-      month !== 12
-        ? new Date(`${year}-${month + 1}-01`)
-        : new Date(`${year + 1}-01-01`);
+    const { initialDay, finalDay } = getMonthRange(year, month);
 
     try {
       const data = await prisma.transaction.findMany({
@@ -230,8 +226,8 @@ app.get(
             { user_id },
             {
               day: {
-                lt: new Date(finalDay),
-                gte: new Date(initialDay),
+                lt: finalDay,
+                gte: initialDay,
               },
             },
             {
@@ -265,19 +261,15 @@ app.get("/api/transactions/filter/:year/:month", async (req, res) => {
   const month = Number(req.params.month);
   const year = Number(req.params.year);
   const user_id = req.query.user_id?.toString();
-  const initialDay = new Date(`${year}-${month}-01`);
-  const finalDay =
-    month !== 12
-      ? new Date(`${year}-${Number(month) + 1}-01`)
-      : new Date(`${year + 1}-01-01`);
+  const { initialDay, finalDay } = getMonthRange(year, month);
 
   try {
     const data = await prisma.transaction.findMany({
       where: {
         user_id,
         day: {
-          lt: new Date(finalDay),
-          gte: new Date(initialDay),
+          lt: finalDay,
+          gte: initialDay,
         },
       },
       orderBy: [{ day: "desc" }, { id: "desc" }],
@@ -324,18 +316,14 @@ app.get("/api/transactions/categories/:year/:month/:type", async (req, res) => {
   const year = Number(req.params.year);
   const month = Number(req.params.month);
   const transactionType = Number(req.params.type);
-  const initialDay = new Date(`${year}-${month}-01`);
-  const finalDay =
-    month !== 12
-      ? new Date(`${year}-${month + 1}-01`)
-      : new Date(`${year + 1}-01-01`);
+  const { initialDay, finalDay } = getMonthRange(year, month);
 
   try {
     const data = await prisma.$queryRaw`
       select  c.title Category, c.id, sum(t.value)
       from transactions t 
       left outer join categories c on c.id = t.category_id 
-      where t.day between ${initialDay} and ${finalDay} and t.type = ${transactionType} and t.user_id = ${user_id}
+      where t.day >= ${initialDay} and t.day < ${finalDay} and t.type = ${transactionType} and t.user_id = ${user_id}
       group by c.id, c.title 
       order by c.id
     `;
@@ -351,10 +339,7 @@ app.get("/api/transactions/patrimony/:year/:month", async (req, res) => {
   const user_id = req.query.user_id?.toString();
   const year = Number(req.params.year);
   const month = Number(req.params.month);
-  const finalDay =
-    month !== 12
-      ? new Date(`${year}-${month + 1}-01`)
-      : new Date(`${year + 1}-01-01`);
+  const { finalDay } = getMonthRange(year, month);
 
   try {
     const data = await prisma.transaction.findMany({
@@ -438,4 +423,11 @@ function addMonthsKeepingDay(baseDate: Date, monthsToAdd: number) {
 
   targetDate.setUTCDate(Math.min(day, lastDayOfTargetMonth));
   return targetDate;
+}
+
+function getMonthRange(year: number, month: number) {
+  const initialDay = new Date(Date.UTC(year, month - 1, 1));
+  const finalDay = new Date(Date.UTC(year, month, 1));
+
+  return { initialDay, finalDay };
 }
